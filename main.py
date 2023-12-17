@@ -133,10 +133,10 @@ convert_into_int_first_digit = int(first_digit)
 # Convert second_digit string into integer
 convert_into_int_second_digit = int(second_digit)
 
-# Add these two number and prit in console which is suppose 9 (5+4)
+# Add these two number and print in console which is supposed 9 (5+4)
 print(convert_into_int_first_digit + convert_into_int_second_digit)
 
-######## Body Mass Calculator ##################
+print("=============  Body Mass Calculator ==========")
 
 height = input()
 weight = input()
@@ -213,7 +213,7 @@ per_person_bill = round((total_bill + tip) / int(person_string), 2)
 print(f" Each person should pay: {per_person_bill}")
 
 print("============ Regular If Else [ Odd/Even Number ]: Practice 12 ============")
-# take a number as input and convert the the number as it will be taken as a string , convert in
+# take a number as input and convert  the number as it will be taken as a string , convert in
 # int
 num = int(input())
 
@@ -267,4 +267,3 @@ elif 30 <= bmi < 35:
     print(f"Your BMI is {bmi}, you are obese.")
 else:
     print(f"Your BMI is {bmi}, you are clinically obese.")
-

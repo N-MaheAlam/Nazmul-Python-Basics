@@ -249,3 +249,5 @@ elif num < 20:
     print(" elif statement 02.")
 else:
     print("else statement")
+
+# Jus showing the coding details to Mr. Aleb

@@ -57,7 +57,7 @@ print(kilometers)
 
 # Floating number with underscore to understand
 saving_account = 234_34_54_495.98
-# prints "34534556.79"
+# prints "2343454495.98"
 print(saving_account)
 
 # boolean
@@ -190,3 +190,31 @@ isGoing = True
 # any sort of variables in below format
 # OUTPUT: The Score is: 10, His/Her age is 29, Is going: True
 print(f"The Score is: {score}, His/Her age is {age}, Is going: {isGoing}")
+
+print("======== How many weeks left if you live 90 years old based on your current age ==========")
+
+age = input()
+years_left = 90 - int(age)
+weeks_have = years_left * 52
+print(f"You have {weeks_have} weeks left.")
+
+print("============== Bill Split calculator =================")
+
+print("Welcome to the tip calculator.")
+
+total_bill_string = input("What was the total Bill? $")
+total_bill = float(total_bill_string)
+
+tip_string = input("What percentage of tip would you like to give? 10, 12, or 15? ")
+tip = int(tip_string) * total_bill / 100
+
+person_string = input("How many people to split the bill? ")
+per_person_bill = round((total_bill + tip) / int(person_string), 2)
+print(f" Each person should pay: {per_person_bill}")
+
+print("============ Regular If Else [ Odd/Even Number ]============")
+num = int(input())
+if num % 2 == 0:
+    print("This is an even number.")
+else:
+    print("This is an odd number.")

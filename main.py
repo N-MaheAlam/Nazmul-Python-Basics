@@ -213,8 +213,13 @@ per_person_bill = round((total_bill + tip) / int(person_string), 2)
 print(f" Each person should pay: {per_person_bill}")
 
 print("============ Regular If Else [ Odd/Even Number ]============")
+# take a number as input and convert the the number as it will be taken as a string , convert in
+# int
 num = int(input())
+
+# if the number has a modules 0, then it is an even number such as 2,4,6 are even number
 if num % 2 == 0:
     print("This is an even number.")
+# Other wise number is an odd number for instance 1,3,5
 else:
     print("This is an odd number.")

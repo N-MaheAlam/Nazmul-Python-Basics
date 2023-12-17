@@ -236,3 +236,16 @@ if height >= 120:
         print("Pay $8.00")
 else:
     print("Your Height is lower than 120 meter. Sorry")
+
+print("============ elif - conditions : Practice 14 ============")
+
+
+num = 19
+if num < 12:
+    print(" if statement.")
+elif num < 17:
+    print(" elif statement 01.")
+elif num < 20:
+    print(" elif statement 02.")
+else:
+    print("else statement")

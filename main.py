@@ -43,10 +43,10 @@ print("The name is: " + first_name + " " + last_name)
 # string and printed in console.
 print('Length of the name: ' + str(length_of_last_name))
 
-print("================= Headline: DAY 02 =======================")
+print("================= Headline: DAY 02  =======================")
 
 print("Data Types: \n")
-print("================= Headline: int, string, float, boolean =======================")
+print("================= Headline: int, string, float, boolean : Practice 04 =======================")
 age = 29
 # integer type
 print(age)
@@ -64,7 +64,7 @@ print(saving_account)
 is_he_here = True
 print("Is He Here: " + str(is_he_here))
 
-print("================= Headline: types of a variable =======================")
+print("================= Headline: types of a variable: Practice 05 =======================")
 # a string
 random_name = "Rabbi"
 # "random_name" is a string type. It will print "str"
@@ -98,7 +98,7 @@ price_diff = new_price - old_price
 # Convert 'price_diff' to a string before concatenating and prints 14
 print("price difference is: " + str(price_diff))
 
-print("================= Headline: Mathematical Operations =======================")
+print("================= Headline: Mathematical Operations: Practice 06 =======================")
 
 # Addition
 print(3 + 2)
@@ -116,7 +116,7 @@ print(3 ** 2)
 # PEMDAS =  Parentheses (), Exponents **, Multiplication *, Division /, Addition + , Subtraction -
 
 
-print("========  Insert a 2 digit Number &  calculate their addition =========")
+print("========  Insert a 2 digit Number &  calculate their addition: Practice 07 =========")
 
 # Input a number as a string
 two_digit_number = input()
@@ -152,7 +152,7 @@ bmi_as_int = int(bmi)
 # print in console
 print(bmi_as_int)
 
-print("========== Headline: Short Forms of Mathematical Operation ==========")
+print("========== Headline: Short Forms of Mathematical Operation: Practice 08 ==========")
 
 score = 10
 # score = score +1
@@ -179,7 +179,7 @@ print(hourly_rate)
 hourly_rate = 20 // 3
 print(hourly_rate)
 
-print("================== Headline: F-String ==================")
+print("================== Headline: F-String: Practice 09 ==================")
 
 score = 10
 age = 29
@@ -191,14 +191,14 @@ isGoing = True
 # OUTPUT: The Score is: 10, His/Her age is 29, Is going: True
 print(f"The Score is: {score}, His/Her age is {age}, Is going: {isGoing}")
 
-print("======== How many weeks left if you live 90 years old based on your current age ==========")
+print("======== weeks left if you live 90 years old comparing age: Practice 10 ==========")
 
 age = input()
 years_left = 90 - int(age)
 weeks_have = years_left * 52
 print(f"You have {weeks_have} weeks left.")
 
-print("============== Bill Split calculator =================")
+print("============== Bill Split calculator: Practice 11 =================")
 
 print("Welcome to the tip calculator.")
 
@@ -212,7 +212,7 @@ person_string = input("How many people to split the bill? ")
 per_person_bill = round((total_bill + tip) / int(person_string), 2)
 print(f" Each person should pay: {per_person_bill}")
 
-print("============ Regular If Else [ Odd/Even Number ]============")
+print("============ Regular If Else [ Odd/Even Number ]: Practice 12 ============")
 # take a number as input and convert the the number as it will be taken as a string , convert in
 # int
 num = int(input())
@@ -220,6 +220,19 @@ num = int(input())
 # if the number has a modules 0, then it is an even number such as 2,4,6 are even number
 if num % 2 == 0:
     print("This is an even number.")
-# Other wise number is an odd number for instance 1,3,5
+# Otherwise number is an odd number for instance 1,3,5
 else:
     print("This is an odd number.")
+
+print("============ Nested If Else [ Odd/Even Number ]: Practice 13 ============")
+
+height = 120
+age = 19
+if height >= 120:
+    print(f" What is your age?: {age}")
+    if age <= 18:
+        print("Pay $5.00")
+    else:
+        print("Pay $8.00")
+else:
+    print("Your Height is lower than 120 meter. Sorry")

@@ -250,4 +250,21 @@ elif num < 20:
 else:
     print("else statement")
 
-# Jus showing the coding details to Mr. Aleb
+print("============ elif - conditions : Practice 15 - Body Mass Index with condition ============")
+
+weight = int(input())
+height = float(input())
+
+bmi = weight / (height * height)
+bmi = round(bmi, 4)
+if bmi < 18.5:
+    print(f"Your BMI is {bmi}, you are underweight.")
+elif 18.5 < bmi < 25:
+    print(f"Your BMI is {bmi}, you have a normal weight.")
+elif 25 <= bmi < 30:
+    print(f"Your BMI is {bmi}, you are slightly overweight.")
+elif 30 <= bmi < 35:
+    print(f"Your BMI is {bmi}, you are obese.")
+else:
+    print(f"Your BMI is {bmi}, you are clinically obese.")
+

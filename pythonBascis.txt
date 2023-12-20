@@ -1,4 +1,14 @@
 
 
-Lecture 08:
+Module:
 
+Suppose, you want to build a car from scratch. So, if you hire a mechanical engineer to build the whole
+car, it is quit complex right! So, to make the process more convenient, you hire different people who
+are expert in various sections of a car. For instance, someone is good at fitting the tires, someone
+is experienced in building the engine, and someone is better to structure properly.
+In python coding, instead of writing all the codes in a block, rather than divide the code into modules
+which can be used whenever it is needed.
+
+random module:
+
+"random" is a python module created by python engineers to generate random integers or floating numbers

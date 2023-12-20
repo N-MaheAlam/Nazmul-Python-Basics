@@ -4,7 +4,7 @@ your_partner_name = input()  # What is their name?
 # add these two strings
 combined_names = your_name + your_partner_name
 
-# if the "combined_names" is in upper case, make it lower by calling the lower() function
+# if the "combined_names" is in the upper case, make it lower by calling the lower() function
 names_in_lower = combined_names.lower()
 
 # count how many words of 't' in you and yours partner whole name in "combined_names" variables

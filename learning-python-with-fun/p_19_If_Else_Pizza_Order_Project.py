@@ -1,7 +1,3 @@
-#  create a small python project in your IDE, Take each block of code based on
-#  "Headline:" and run in "main.py" of that project, you can understand easily how
-#  each line of code is working.
-
 print("============ else/if Pizza Delivery : Practice 19 - Project - 01 ============")
 
 # Take the pizza size

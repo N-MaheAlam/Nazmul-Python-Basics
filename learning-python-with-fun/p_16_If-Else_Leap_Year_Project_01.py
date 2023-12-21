@@ -1,4 +1,4 @@
-print("============ Nested else/if Leap Year : Practice 17 ============")
+print("====== Headline: Nested else/if Leap Year : Practice 16 // Project 01 ============")
 
 # enter year and convert it into integer
 year = int(input())

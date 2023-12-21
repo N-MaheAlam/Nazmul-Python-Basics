@@ -1,7 +1,9 @@
+
+
 # to generate random numbers, we nees to bring the "random" modules by importing in our
 # project
 import random
-
+print("============ Headline: Head or Tails : Practice 20 // project -04 ============")
 random_int = random.randint(100, 200)
 print(f"This is a random integer 100 <= random_int <= 200: {random_int}")
 random_float = random.random()

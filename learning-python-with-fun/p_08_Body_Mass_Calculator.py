@@ -1,4 +1,4 @@
-print("=============  Body Mass Calculator ==========")
+print("================= Headline: Body Mass Calculator: Practice 08 =======================")
 
 height = input()
 weight = input()

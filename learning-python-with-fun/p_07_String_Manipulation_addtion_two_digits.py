@@ -1,4 +1,4 @@
-print("========  Insert a 2 digit Number &  calculate their addition: Practice 07 =========")
+print("==== Headline: Insert a 2 digit Number &  calculate their addition: Practice 07 ====")
 
 # Input a number as a string
 two_digit_number = input()

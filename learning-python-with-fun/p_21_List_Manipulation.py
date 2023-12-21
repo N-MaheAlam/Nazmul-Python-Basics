@@ -1,4 +1,7 @@
-# Use (") double quotes or single quote ('), it does not matter to initiate variables inside a list
+
+print("============ Headline: String Manipulation : Practice 21 ============")
+# Use (") double quotes or single quote ('), it does not
+# matter to initiate variables inside a list
 it_is_a_list = ['Nazmul', 'Mahe', 'Alam']
 
 # prints "['Nazmul', 'Mahe', 'Alam']"

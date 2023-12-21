@@ -1,3 +1,5 @@
+
+print("============ Headline: Love Calculator : Practice 19 ============")
 print("The Love Calculator is calculating your score...")
 your_name = input()  # What is your name?
 your_partner_name = input()  # What is their name?

@@ -1,4 +1,5 @@
-print("============ Roller coaster tickets price based on age : Practice 18 ============")
+print("======= Headline:  Roller coaster tickets price based on age : Practice 17 ======")
+print("======= Project 02 ======")
 
 # Enter the height. As it will be taken as string, we will convert the string into integer
 height = int(input("Enter your height in cm: "))

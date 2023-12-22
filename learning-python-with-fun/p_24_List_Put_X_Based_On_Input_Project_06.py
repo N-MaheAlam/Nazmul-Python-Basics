@@ -5,7 +5,7 @@ line1 = ["1A", "1B", "1C"]
 line2 = ["2A", "2B", "2C"]
 line3 = ["3A", "3B", "3C"]
 # put all 3 lists inside another list name "lines"
-lines = [line1, line2, line2]
+lines = [line1, line2, line3]
 # print below 2 print statement
 print("Hiding your treasure! X marks the spot.")
 print('Enter just one combination of [a,b,c] with [1,2,3] such as "a1" or "b2":')

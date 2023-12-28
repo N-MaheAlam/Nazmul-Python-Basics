@@ -6,3 +6,9 @@
 #   Copy each file each time, run in your "main.py", understand code structures,input, outputs
 #   Very easy to learn.
 ##################           Write Code From Below       ####################
+
+fruits = ["apple", "Orange", "Banana"]
+
+for fruit in fruits:
+    print(fruit)
+

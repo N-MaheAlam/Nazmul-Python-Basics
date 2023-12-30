@@ -13,9 +13,9 @@ random_float_number = 456.044
 # It will print the data type of "random_float_number" is float
 print(type(random_float_number))
 
-a_number_with_comma = 345_345_56.79
+a_number_with_underscore = 345_345_56.79
 # It prints 34534556.79
-print(a_number_with_comma)
+print(a_number_with_underscore)
 
 # it is a string
 new_price = "29"

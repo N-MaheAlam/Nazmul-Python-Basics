@@ -6,5 +6,6 @@ age = input()
 years_left = 90 - int(age)
 # weeks left before die
 weeks_have = years_left * 52
-# prints weeks left
+# prints weeks left and printing an integer in the strings by using "f" string before the printing
+# statement which prints strings as well as the integer.
 print(f"You have {weeks_have} weeks left.")

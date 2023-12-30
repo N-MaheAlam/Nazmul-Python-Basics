@@ -8,7 +8,7 @@ print(score)
 
 age = 29
 age -= 9
-# prints 9
+# prints 20
 print(age)
 
 hourly_rate = 20 / 3

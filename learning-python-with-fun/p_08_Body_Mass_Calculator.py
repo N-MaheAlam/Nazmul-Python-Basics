@@ -7,7 +7,7 @@ height_as_float = float(height)
 # Convert weight String into integer
 weight_as_int = int(weight)
 
-bmi = weight_as_int / height_as_float ** 2
+bmi = weight_as_int / height_as_float ** 2  # height_as_float * height_as_float = height_as_float ** 2
 
 # If the bmi in case comes as a float, convert it into integer
 bmi_as_int = int(bmi)

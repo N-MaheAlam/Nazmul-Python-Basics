@@ -7,26 +7,8 @@
 #   Very easy to learn.
 ##################           Write Code From Below       ####################
 
-print("============ Headline: elif - conditions : Practice 14 ============")
+print("============ Headline: Basic for loop : Practice 26 =======")
 
-num = 19
-# if number is below 12 it prints "if statement"
-if num < 12:
-    print(" if statement.")
-    # if the number is smaller than 17 but bigger than 12, prints "elif statement 01."
-elif num < 17:
-    print(" elif statement 01.")
-    # if the number is bigger than 12 and also bigger than 17 but smaller than 20, then
-    # prints "elif statement 02."
-elif num < 20:
-    print(" elif statement 02.")
-
-# This statement will be skipped although the num is less than 30 because the "num" is
-# already caught by the above elif num < 20 , statement. Here a things come into picture
-# if, elif,... else are in same intention ( I mean same structured line for which it caught
-# in first elif statement where the condition matches )
-elif num < 30:
-    print(" elif statement 02.")
-# Any number from 30 to bigger will print "else statement"
-else:
-    print("else statement")
+names = ["Nazmul", "Mahe", "Alam", "Rabbi"]
+for name in names:
+    print(name)

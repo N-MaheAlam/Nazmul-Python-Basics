@@ -14,7 +14,7 @@ if bmi < 18.5:
     print(f"Your BMI is {bmi}, you are underweight.")
 # if bmi is between 18.6 to 24.99, it will print the "normal weight"
 # REMEMBER: if the bmi is 18.5 it will go  directly the "else" condition because in above code
-# we mention bmi should be smaller than 18.5 and below code bmi should be bigger than 18.50 but
+# we mention bmi should be smaller than 18.5 and below code bmi should be bigger than 18.5 but
 # in no other condition we mention bmi = 18.5 or bmi <= or >= 18.5. That's why it will go the
 # else condition.
 elif 18.5 < bmi < 25:

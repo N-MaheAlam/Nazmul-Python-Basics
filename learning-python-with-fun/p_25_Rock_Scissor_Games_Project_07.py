@@ -1,5 +1,6 @@
-import random
 
+import random
+print("============ Headline: Rock Paper Scissor Games : Practice 25 // Project 07 =======")
 rock = '''
     _______
 ---'   ____)

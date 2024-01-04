@@ -1,5 +1,5 @@
 
-print("============ Headline: Place 'X' in desire number : Practice 23 // Project 06 ============")
+print("============ Headline: Place 'X' in desire number : Practice 24 // Project 06 ============")
 # here line1, line2, line3 are three separated lists
 line1 = ["1A", "1B", "1C"]
 line2 = ["2A", "2B", "2C"]

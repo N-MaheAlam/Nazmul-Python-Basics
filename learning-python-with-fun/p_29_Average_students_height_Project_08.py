@@ -1,11 +1,3 @@
-#   This Project is to make understandable python for everyone without watching videos
-#   But reading codes, and it's output.
-#   Create a small python project in your IDE.Take each block of code based on
-#   "Headline:" and run in "main.py" of your project, you can understand easily how
-#   each line of code is working.All the projects are stored in "learning-python-with-fun"
-#   Copy each file each time, run in your "main.py", understand code structures,input, outputs
-#   Very easy to learn.
-##################           Write Code From Below       ####################
 
 print("====== Headline: For loop to measure average height : Practice 28 / Project - 08 =======")
 # Only just input numbers and put space in each number to produce desire output
@@ -40,5 +32,3 @@ print(f"number of students = {total_number_of_students}")
 average_height = round(total_height / total_number_of_students)
 # print average height
 print(f"average height = {average_height}")
-
-
